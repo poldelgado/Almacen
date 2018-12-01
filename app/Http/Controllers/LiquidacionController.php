@@ -43,8 +43,8 @@ class LiquidacionController extends Controller
     public function store(Request $request)
     {
         $liquidacion = new Liquidacion($request->all());
-        $liquidacion->desde= \Carbon\Carbon::parse($liquidacion->desde)->format('Y-m-d');
-        $liquidacion->hasta= \Carbon\Carbon::parse($liquidacion->hasta)->format('Y-m-d');
+        //$liquidacion->desde= \Carbon\Carbon::parse($liquidacion->desde)->format('Y-m-d');
+        //$liquidacion->hasta= \Carbon\Carbon::parse($liquidacion->hasta)->format('Y-m-d');
         $liquidacion->sueldoBruto=0;
         $liquidacion->sueldoNeto=0;
         $user = User::find($request->id);

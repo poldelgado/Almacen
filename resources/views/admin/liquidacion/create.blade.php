@@ -44,13 +44,13 @@
           {!! Form::label('desde','Desde',['class'=>'control-label']) !!}   
         </div>
         <div class="col-lg-2">
-           {!! Form::text('desde',null,['class' => 'form-control desde', 'placeholder'=>'dd-mm-aaaa','required']) !!}
+           {!! Form::date('desde',null,['class' => 'form-control desde', 'placeholder'=>'dd-mm-aaaa','required']) !!}
         </div>
         <div class="col-lg-2">
                 {!! Form::label('hasta','Hasta',['class'=>'control-label']) !!}   
               </div>
               <div class="col-lg-2">
-                 {!! Form::text('hasta',null,['class' => 'form-control hasta', 'placeholder'=>'dd-mm-aaaa','required']) !!}
+                 {!! Form::date('hasta',null,['class' => 'form-control hasta', 'placeholder'=>'dd-mm-aaaa','required']) !!}
               </div>
     </div>
     <hr />

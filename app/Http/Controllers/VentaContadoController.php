@@ -21,7 +21,7 @@ class VentaContadoController extends Controller
      */
     public function index()
     {
-        $ventas = Venta::orderBy('id','ASC')->paginate(7);
+        $ventas = Venta::orderBy('fecha','DESC')->paginate(7);
         return view('admin.venta.index')
         ->with('ventas',$ventas);
     }

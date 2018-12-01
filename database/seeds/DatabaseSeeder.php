@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Database\Seeder;
+use App\User;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -9,11 +10,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        User::truncate();
+        $cantidadUsuarios = 10;
+        factory(User::class, $cantidadUsuarios)->create();
         $this->call(StateSeeder::class);
         $this->call(ProvinceSeeder::class);
         $this->call(LocationSeeder::class);
         $this->call(DomicilioTableSeeder::class);
-        $this->call(UserTableSeeder::class);
         $this->call(ClienteTableSeeder::class);
         $this->call(Liquidacion::class);
         $this->call(Concepto::class);
@@ -28,5 +32,6 @@ class DatabaseSeeder extends Seeder
         $this->call(cuenta_corrienteseeder::class);
         $this->call(Pagoseeder::class);
         $this->call(Pago_ccseeder::class);
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }
