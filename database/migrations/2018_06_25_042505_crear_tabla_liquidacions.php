@@ -15,8 +15,8 @@ class CrearTablaLiquidacions extends Migration
     {
         Schema::create('liquidacions', function (Blueprint $table) {
             $table->increments('id');
-            $table->double('sueldoNeto',8,2);
-            $table->double('sueldoBruto',8,2);
+            $table->double('sueldoNeto');
+            $table->double('sueldoBruto');
             $table->string('periodo');
             $table->date('desde');
             $table->date('hasta');
