@@ -60,6 +60,7 @@ class DatabaseSeeder extends Seeder
         $cantidadClientes = 700;
         $cantidadProveedores = 25;
         $cantidadLiquidaciones = 150;
+        $cantidadVentas = 300;
 
         factory(State::class, $cantidadStates)->create();
         factory(Province::class, $cantidadProvincias)->create();
@@ -80,7 +81,7 @@ class DatabaseSeeder extends Seeder
         $this->call(Stockseeder::class);
         $this->call(Productoseeder::class);
         $this->call(LineaCompraseeder::class);
-        $this->call(Ventaseeder::class);
+        factory(Venta::class, $cantidadVentas)->create();
         $this->call(cuenta_corrienteseeder::class);
         $this->call(Pagoseeder::class);
         $this->call(Pago_ccseeder::class);
