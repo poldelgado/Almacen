@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>@yield('title', 'TUC-TECNO')|Panel de Administracion</title> <!--Paso el titulo de la pagina por parametros a traves de los yield , default es un valor del titulo que se muestra por defecto cuando no se pasa un valor concreto-->
+    <title>@yield('title', 'EDG')|Panel de Administración</title> <!--Paso el titulo de la pagina por parametros a traves de los yield , default es un valor del titulo que se muestra por defecto cuando no se pasa un valor concreto-->
     <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('plugins/chosen/chosen.css')}}">
     
@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <strong>@yield('title', 'Tuc-tecno')</strong>
+                    <strong>@yield('title', 'EDG')</strong>
                 </div>
                   <div class="panel-body">
                         @include('flash::message')<!--para que se muestren los mensajes con el paquete flash -->
@@ -24,7 +24,7 @@
                   @yield('content')
                   </div>
             </div>        
-                   <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> Tucuman Tecnologias © {{date("Y")}} | Todos los derechos reservados </div>
+                   <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
         </div>
     </section>
 

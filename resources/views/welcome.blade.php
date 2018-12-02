@@ -28,7 +28,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h4 class="display-4"><p>Tucuman Tecnologias</p></h4>                       
+                    <h4 class="display-4"><p>EDG Informática</p></h4>
                 </div>
                 <div class="container-fluid">
                 <div class="row">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> Tucuman Tecnologias © {{date("Y")}} | Todos los derechos reservados </div>          
+                <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
             </div>
         </div>
     </body>

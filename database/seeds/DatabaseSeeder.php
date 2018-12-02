@@ -71,19 +71,20 @@ class DatabaseSeeder extends Seeder
         factory(Liquidacion::class, $cantidadLiquidaciones)->create();
 
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
 //        $this->call(Liquidacion::class);
 //        $this->call(Concepto::class);
 //        $this->call(DetalleLiquidacion::class);
 //        $this->call(Compra::class);
-//        $this->call(Tipo_seeder::class);
-//        $this->call(Stockseeder::class);
-//        $this->call(Productoseeder::class);
-//        $this->call(LineaCompraseeder::class);
-//        $this->call(Ventaseeder::class);
-//        $this->call(cuenta_corrienteseeder::class);
-//        $this->call(Pagoseeder::class);
-//        $this->call(Pago_ccseeder::class);
+        $this->call(Tipo_seeder::class);
+        $this->call(Stockseeder::class);
+        $this->call(Productoseeder::class);
+        $this->call(LineaCompraseeder::class);
+        $this->call(Ventaseeder::class);
+        $this->call(cuenta_corrienteseeder::class);
+        $this->call(Pagoseeder::class);
+        $this->call(Pago_ccseeder::class);
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+
     }
 }

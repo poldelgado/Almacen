@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-default">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <b><i>Tucuman Tecnologias</i></b>
+                    <b><i>EDG Informática</i></b>
                 </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>    
@@ -59,7 +59,7 @@
             </div>
         </nav>
         <div class="title m-b-md">
-                <h4 class="display-4"><p class="text-center">Tucuman Tecnologias</p></h4>                       
+                <h4 class="display-4"><p class="text-center">EDG Informática</p></h4>
             </div>
         <div class="row">
                 <div class="col-sm-12 col-md-2">
@@ -109,7 +109,7 @@
                                   </div>
                             </div>
         </div>
-        <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> Tucuman Tecnologias © {{date("Y")}} | Todos los derechos reservados </div>          
+        <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
            
     </div>
     <!-- Optional JavaScript -->
