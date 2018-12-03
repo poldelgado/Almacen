@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <title>Tucuman Informatico</title>
+        <title>EDG INFORMÁTICA</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h4 class="display-4"><p>EDG Informática</p></h4>
+                    <h4 class="display-4"><p>EDG INFORMÁTICA</p></h4>
                 </div>
                 <div class="container-fluid">
                 <div class="row">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
+                <div class="panel-footer text-center">EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
             </div>
         </div>
     </body>

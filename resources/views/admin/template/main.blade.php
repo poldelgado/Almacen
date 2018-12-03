@@ -24,7 +24,7 @@
                   @yield('content')
                   </div>
             </div>        
-                   <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
+                   <div class="panel-footer text-center"> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
         </div>
     </section>
 

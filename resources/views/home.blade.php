@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>TUC-TECNO</title>
+    <title>EDG INFORMÁTICA</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -61,7 +61,7 @@
         <div class="title m-b-md">
                 <h4 class="display-4"><p class="text-center">EDG Informática</p></h4>
             </div>
-        <div class="row">
+        <div class="row center-block text-center">
                 <div class="col-sm-12 col-md-2">
                         <div class="card mb-4 bg-danger text-white">
                             <div class="card-body text-center">
@@ -71,7 +71,7 @@
         
                             </div>
                           </div>    
-                    </div>
+                </div>
                     <div class="col-sm-12 col-md-2">
                         <div class="card mb-4 bg-primary text-white">
                             <div class="card-body text-center">
@@ -106,10 +106,10 @@
                                       <p class="card-text"></p>
                                     <a href="{{asset('admin/ventaContado')}}"><img src="{{ asset('images/venta')}}" class="img-thumbnail rounded-circle" alt=""></a>
                                     </div>
-                                  </div>
-                            </div>
+                                </div>
+                        </div>
         </div>
-        <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
+        <div class="panel-footer text-center"> EDG Informática © {{date("Y")}} | Todos los derechos reservados </div>
            
     </div>
     <!-- Optional JavaScript -->
