@@ -130,7 +130,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <title>TUC-TECNO</title>
+    <title>EDG INFORMÁTICA</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -142,7 +142,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-default">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <b><i>Tucuman Tecnologias</i></b>
+                    <b><i>EDG INFORMÁTICA</i></b>
                 </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>    
@@ -167,7 +167,7 @@
                                     <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                  document.getElementById('logout-form').submit();" class="dropdown-item">
-                                        Logout
+                                        Salir
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -180,7 +180,7 @@
             </div>
         </nav>
         <div class="title m-b-md">
-                <h4 class="display-4"><p class="text-center">Tucuman Tecnologias</p></h4>                       
+                <h4 class="display-4"><p class="text-center">EDG INFORMÁTICA</p></h4>                       
             </div>
         <div class="row">
                     <div class="col-sm-12 col-md-2">
@@ -211,7 +211,7 @@
                                   </div>
                             </div>
         </div>
-        <div class="panel-footer text-center"><a href="{{asset('/')}}"><img src="{{asset('images/marca_tucuman.png')}}" srcset="{{asset('images/marca_tucuman.png')}} 2x" width="60"></a> Tucuman Tecnologias © {{date("Y")}} | Todos los derechos reservados </div>          
+        <div class="panel-footer text-center">EDG INFORMÁTICA © {{date("Y")}} | Todos los derechos reservados </div>          
            
     </div>
     <!-- Optional JavaScript -->
